@@ -1,0 +1,13 @@
+{
+  "name": "dracula-colorful",
+  "title": "Dracula Colorful Theme",
+  "displayName": "Dracula Colorful Theme",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "A Dracula Colorful dark theme.",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  }
+}
+
