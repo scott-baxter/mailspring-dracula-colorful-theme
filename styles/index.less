@@ -90,11 +90,39 @@ img.content-light {
   border-radius: 0px;
 }
 
+// Footer Toast
+.content[class*="undo-redo-toast-fade-"] {
+  background-color: @toast-background-color;
+
+  .action {
+    background-color: @accent-primary;
+
+    .undo-action-text {
+      color: @toast-text-color;
+    }
+  }
+
+  .message {
+    color: @toast-text-color;
+  }
+}
+
+// Thread top notices
+.thread-list-empty-folder-bar {
+  background-color: @thread-notice-background-color;
+
+  .notice {
+    color: @thread-notice-text-color;
+  }
+}
+
+
+
 // CUSTOM VALUES FOR EDIT MAIL
 
 .button-dropdown.btn-emphasis .primary-item, .button-dropdown.btn-emphasis .secondary-picker, .button-dropdown.btn-emphasis .only-item {
     position: relative;
-    color: white;
+    color: #fff;
     font-weight: 500;
     background: @accent-primary;
     box-shadow: none;
@@ -134,3 +162,4 @@ input[type="range"] {
   // border-radius: 0px;
   // border-style: none;
 }
+  
